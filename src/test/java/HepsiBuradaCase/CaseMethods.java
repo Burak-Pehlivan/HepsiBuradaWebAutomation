@@ -1,17 +1,13 @@
 package HepsiBuradaCase;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
-import java.util.List;
-
 public class CaseMethods extends BasePage {
 
-    public CaseMethods(WebDriver driver){
+    public CaseMethods(WebDriver driver) {
         super(driver);
     }
 
@@ -32,7 +28,7 @@ public class CaseMethods extends BasePage {
         Assert.assertEquals(userName, "Fatih Burak Pehlivan");
     }
 
-    public void searchProductAndCommentDetail(){
+    public void searchProductAndCommentDetail() {
         fillInTheBlankByXpath("//*[@class='desktopOldAutosuggestTheme-input']", "iphone");
         clickElementByXpath("//*[@class='SearchBoxOld-buttonContainer']");
         scrollToElementByXpath("//*[@data-test-id='product-card-name'][text() = 'iPhone 13 128 GB' ]");
@@ -40,7 +36,7 @@ public class CaseMethods extends BasePage {
         switchToTab(1);
         scrollToElementByID("productReviewsTab");
         clickElementById("productReviewsTab");
-        if(findElementById("productReviewsTab").getText() == "Değerlendirmeler (0)"){
+        if (findElementById("productReviewsTab").getText() == "Değerlendirmeler (0)") {
             driver.get(configuration.getProperty("mainPage"));
             waitForLoad(driver);
             Assert.assertEquals(driver.getCurrentUrl(), configuration.getProperty("mainPage"));
