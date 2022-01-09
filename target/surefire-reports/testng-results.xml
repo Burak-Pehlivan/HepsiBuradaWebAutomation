@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web Suite" duration-ms="22342" started-at="2022-01-09T22:32:48Z" finished-at="2022-01-09T22:33:10Z">
+    <groups>
+    </groups>
+    <test name="QATestCase" duration-ms="22342" started-at="2022-01-09T22:32:48Z" finished-at="2022-01-09T22:33:10Z">
+      <class name="tests.test">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.test@4678c730]" name="beforeSuite" is-config="true" duration-ms="102" started-at="2022-01-09T22:32:48Z" finished-at="2022-01-09T22:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:tests.test@4678c730]" name="Setup" is-config="true" duration-ms="1520" started-at="2022-01-09T22:32:48Z" finished-at="2022-01-09T22:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.test@4678c730]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2022-01-09T22:32:50Z" finished-at="2022-01-09T22:32:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.test.SearchProductAndDetail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SearchProductAndDetail()[pri:0, instance:tests.test@4678c730]" name="SearchProductAndDetail" duration-ms="20108" started-at="2022-01-09T22:32:50Z" finished-at="2022-01-09T22:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductAndDetail -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.test@4678c730]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-01-09T22:33:10Z" finished-at="2022-01-09T22:33:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchProductAndDetail status=SUCCESS method=test.SearchProductAndDetail()[pri:0, instance:tests.test@4678c730] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:tests.test@4678c730]" name="AfterClass" is-config="true" duration-ms="696" started-at="2022-01-09T22:33:10Z" finished-at="2022-01-09T22:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.test@4678c730]" name="afterSuite" is-config="true" duration-ms="167" started-at="2022-01-09T22:33:10Z" finished-at="2022-01-09T22:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.test -->
+    </test> <!-- QATestCase -->
+  </suite> <!-- Web Suite -->
+</testng-results>

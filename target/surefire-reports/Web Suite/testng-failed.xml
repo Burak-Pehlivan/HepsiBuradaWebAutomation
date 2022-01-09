@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Web Suite]" parallel="tests">
+  <test thread-count="1" verbose="0" name="QATestCase(failed)" parallel="tests">
+    <classes>
+      <class name="tests.test">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="Setup"/>
+          <include name="AfterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="SearchProductAndDetail"/>
+        </methods>
+      </class> <!-- tests.test -->
+    </classes>
+  </test> <!-- QATestCase(failed) -->
+</suite> <!-- Failed suite [Web Suite] -->
